@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82545E4429F897610020F38E /* ManualBarMark4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4129F897610020F38E /* ManualBarMark4.swift */; };
 		82545E4529F897610020F38E /* ManualBarMark2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4229F897610020F38E /* ManualBarMark2.swift */; };
 		82545E4629F897610020F38E /* ManualBarMark3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4329F897610020F38E /* ManualBarMark3.swift */; };
 		82545E4829F8EC210020F38E /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4729F8EC210020F38E /* RomanNumeral.swift */; };
 		82545E4A29F9526E0020F38E /* LoopedBarMark1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4929F9526E0020F38E /* LoopedBarMark1.swift */; };
 		82545E4C29F98A8D0020F38E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4B29F98A8D0020F38E /* SampleData.swift */; };
+		82545E4E29F9954A0020F38E /* SampleData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4D29F9954A0020F38E /* SampleData1.swift */; };
 		82E4008729E1FB8A001B97CB /* SwiftChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */; };
 		82E4008929E1FB8A001B97CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4008829E1FB8A001B97CB /* ContentView.swift */; };
 		82E4008B29E1FB8B001B97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E4008A29E1FB8B001B97CB /* Assets.xcassets */; };
@@ -41,12 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82545E4129F897610020F38E /* ManualBarMark4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualBarMark4.swift; sourceTree = "<group>"; };
 		82545E4229F897610020F38E /* ManualBarMark2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualBarMark2.swift; sourceTree = "<group>"; };
 		82545E4329F897610020F38E /* ManualBarMark3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualBarMark3.swift; sourceTree = "<group>"; };
 		82545E4729F8EC210020F38E /* RomanNumeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		82545E4929F9526E0020F38E /* LoopedBarMark1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopedBarMark1.swift; sourceTree = "<group>"; };
 		82545E4B29F98A8D0020F38E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		82545E4D29F9954A0020F38E /* SampleData1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData1.swift; sourceTree = "<group>"; };
 		82E4008329E1FB8A001B97CB /* SwiftCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsApp.swift; sourceTree = "<group>"; };
 		82E4008829E1FB8A001B97CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 				82545E4229F897610020F38E /* ManualBarMark2.swift */,
 				82545E4329F897610020F38E /* ManualBarMark3.swift */,
 				82545E4929F9526E0020F38E /* LoopedBarMark1.swift */,
-				82545E4129F897610020F38E /* ManualBarMark4.swift */,
+				82545E4D29F9954A0020F38E /* SampleData1.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -290,11 +290,11 @@
 			files = (
 				82E4008929E1FB8A001B97CB /* ContentView.swift in Sources */,
 				82545E4829F8EC210020F38E /* RomanNumeral.swift in Sources */,
-				82545E4429F897610020F38E /* ManualBarMark4.swift in Sources */,
 				82545E4A29F9526E0020F38E /* LoopedBarMark1.swift in Sources */,
 				82545E4629F897610020F38E /* ManualBarMark3.swift in Sources */,
 				82E4008729E1FB8A001B97CB /* SwiftChartsApp.swift in Sources */,
 				82E400B229E1FD5C001B97CB /* ManualBarMark1.swift in Sources */,
+				82545E4E29F9954A0020F38E /* SampleData1.swift in Sources */,
 				82545E4C29F98A8D0020F38E /* SampleData.swift in Sources */,
 				82545E4529F897610020F38E /* ManualBarMark2.swift in Sources */,
 			);

@@ -43,15 +43,13 @@ struct LoopedBarMark1: View {
     var drinks: [Drink]
     var body: some View {
         List {
-            Chart {
-                ForEach(drinks, id: \.name) { drink in
-                    ForEach(drink.ingredients) { ingredient in
-                        BarMark(x: .value("Drink", drink.name),
-                                y: .value("Serving", ingredient.serving))
-                        .foregroundStyle(by: .value("Ingredient", ingredient.name))
-                    }
-                }
-            }
+Chart(drinks, id: \.name) { drink in
+    ForEach(drink.ingredients) { ingredient in
+        BarMark(x: .value("Drink", drink.name),
+                y: .value("Serving", ingredient.serving))
+        .foregroundStyle(by: .value("Ingredient", ingredient.name))
+    }
+}
             .chartForegroundStyleScale([
                 "Espresso": Color.espresso, "Steam Milk": Color.steamMilk,
                 "Foam Milk": Color.foamMilk, "Hot Chocolate": Color.hotChocolate

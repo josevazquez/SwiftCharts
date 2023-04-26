@@ -14,7 +14,7 @@ enum Charts: CaseIterable, Identifiable {
     case manualBarMark2
     case manualBarMark3
     case loopedBarMark1
-    case manualBarMark4
+    case sampleData1
 }
 
 struct ContentView: View {
@@ -31,7 +31,7 @@ struct ContentView: View {
             case .manualBarMark2: ManualBarMark2()
             case .manualBarMark3: ManualBarMark3()
             case .loopedBarMark1: LoopedBarMark1(drinks: drinks)
-            case .manualBarMark4: ManualBarMark4()
+            case .sampleData1:    SampleData1()
             default:              Text("📊")
             }
         }
