@@ -13,6 +13,10 @@
 		82545E4A29F9526E0020F38E /* LoopedBarMark1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4929F9526E0020F38E /* LoopedBarMark1.swift */; };
 		82545E4C29F98A8D0020F38E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4B29F98A8D0020F38E /* SampleData.swift */; };
 		82545E4E29F9954A0020F38E /* SampleData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4D29F9954A0020F38E /* SampleData1.swift */; };
+		82E3344429F9CBE700A62569 /* SampleData3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3344129F9CBE700A62569 /* SampleData3.swift */; };
+		82E3344529F9CBE700A62569 /* SampleData4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3344229F9CBE700A62569 /* SampleData4.swift */; };
+		82E3344629F9CBE700A62569 /* SampleData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3344329F9CBE700A62569 /* SampleData2.swift */; };
+		82E3344829F9CD3900A62569 /* CurrencyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3344729F9CD3900A62569 /* CurrencyFormat.swift */; };
 		82E4008729E1FB8A001B97CB /* SwiftChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */; };
 		82E4008929E1FB8A001B97CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4008829E1FB8A001B97CB /* ContentView.swift */; };
 		82E4008B29E1FB8B001B97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E4008A29E1FB8B001B97CB /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 		82545E4929F9526E0020F38E /* LoopedBarMark1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopedBarMark1.swift; sourceTree = "<group>"; };
 		82545E4B29F98A8D0020F38E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		82545E4D29F9954A0020F38E /* SampleData1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData1.swift; sourceTree = "<group>"; };
+		82E3344129F9CBE700A62569 /* SampleData3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData3.swift; sourceTree = "<group>"; };
+		82E3344229F9CBE700A62569 /* SampleData4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData4.swift; sourceTree = "<group>"; };
+		82E3344329F9CBE700A62569 /* SampleData2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData2.swift; sourceTree = "<group>"; };
+		82E3344729F9CD3900A62569 /* CurrencyFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormat.swift; sourceTree = "<group>"; };
 		82E4008329E1FB8A001B97CB /* SwiftCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsApp.swift; sourceTree = "<group>"; };
 		82E4008829E1FB8A001B97CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +102,9 @@
 				82545E4329F897610020F38E /* ManualBarMark3.swift */,
 				82545E4929F9526E0020F38E /* LoopedBarMark1.swift */,
 				82545E4D29F9954A0020F38E /* SampleData1.swift */,
+				82E3344329F9CBE700A62569 /* SampleData2.swift */,
+				82E3344129F9CBE700A62569 /* SampleData3.swift */,
+				82E3344229F9CBE700A62569 /* SampleData4.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 				82E4008829E1FB8A001B97CB /* ContentView.swift */,
 				82545E4729F8EC210020F38E /* RomanNumeral.swift */,
 				82545E4B29F98A8D0020F38E /* SampleData.swift */,
+				82E3344729F9CD3900A62569 /* CurrencyFormat.swift */,
 				82545E4029F895070020F38E /* Pages */,
 				82E4008A29E1FB8B001B97CB /* Assets.xcassets */,
 				82E4008C29E1FB8B001B97CB /* SwiftCharts.entitlements */,
@@ -290,11 +302,15 @@
 			files = (
 				82E4008929E1FB8A001B97CB /* ContentView.swift in Sources */,
 				82545E4829F8EC210020F38E /* RomanNumeral.swift in Sources */,
+				82E3344529F9CBE700A62569 /* SampleData4.swift in Sources */,
 				82545E4A29F9526E0020F38E /* LoopedBarMark1.swift in Sources */,
 				82545E4629F897610020F38E /* ManualBarMark3.swift in Sources */,
 				82E4008729E1FB8A001B97CB /* SwiftChartsApp.swift in Sources */,
+				82E3344629F9CBE700A62569 /* SampleData2.swift in Sources */,
+				82E3344829F9CD3900A62569 /* CurrencyFormat.swift in Sources */,
 				82E400B229E1FD5C001B97CB /* ManualBarMark1.swift in Sources */,
 				82545E4E29F9954A0020F38E /* SampleData1.swift in Sources */,
+				82E3344429F9CBE700A62569 /* SampleData3.swift in Sources */,
 				82545E4C29F98A8D0020F38E /* SampleData.swift in Sources */,
 				82545E4529F897610020F38E /* ManualBarMark2.swift in Sources */,
 			);

@@ -1,6 +1,6 @@
 //
 //  SwiftUIView.swift
-//  SampleData1
+//  SampleData4
 //
 //  Created by Jose Vazquez on 4/8/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct SampleData1: View {
+struct SampleData4: View {
     let sampleData = SampleData(count: 5)
     var body: some View {
         List {
@@ -37,8 +37,8 @@ struct SampleData1: View {
     }
 }
 
-struct SampleData1_Previews: PreviewProvider {
+struct SampleData4_Previews: PreviewProvider {
     static var previews: some View {
-        SampleData1()
+        SampleData4()
     }
 }
