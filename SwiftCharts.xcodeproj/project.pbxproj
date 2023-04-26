@@ -11,6 +11,8 @@
 		82545E4529F897610020F38E /* ManualBarMark2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4229F897610020F38E /* ManualBarMark2.swift */; };
 		82545E4629F897610020F38E /* ManualBarMark3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4329F897610020F38E /* ManualBarMark3.swift */; };
 		82545E4829F8EC210020F38E /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4729F8EC210020F38E /* RomanNumeral.swift */; };
+		82545E4A29F9526E0020F38E /* LoopedBarMark1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4929F9526E0020F38E /* LoopedBarMark1.swift */; };
+		82545E4C29F98A8D0020F38E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82545E4B29F98A8D0020F38E /* SampleData.swift */; };
 		82E4008729E1FB8A001B97CB /* SwiftChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */; };
 		82E4008929E1FB8A001B97CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4008829E1FB8A001B97CB /* ContentView.swift */; };
 		82E4008B29E1FB8B001B97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E4008A29E1FB8B001B97CB /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		82545E4229F897610020F38E /* ManualBarMark2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualBarMark2.swift; sourceTree = "<group>"; };
 		82545E4329F897610020F38E /* ManualBarMark3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualBarMark3.swift; sourceTree = "<group>"; };
 		82545E4729F8EC210020F38E /* RomanNumeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
+		82545E4929F9526E0020F38E /* LoopedBarMark1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopedBarMark1.swift; sourceTree = "<group>"; };
+		82545E4B29F98A8D0020F38E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		82E4008329E1FB8A001B97CB /* SwiftCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsApp.swift; sourceTree = "<group>"; };
 		82E4008829E1FB8A001B97CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				82E400B129E1FD5C001B97CB /* ManualBarMark1.swift */,
 				82545E4229F897610020F38E /* ManualBarMark2.swift */,
 				82545E4329F897610020F38E /* ManualBarMark3.swift */,
+				82545E4929F9526E0020F38E /* LoopedBarMark1.swift */,
 				82545E4129F897610020F38E /* ManualBarMark4.swift */,
 			);
 			path = Pages;
@@ -119,6 +124,7 @@
 				82E4008629E1FB8A001B97CB /* SwiftChartsApp.swift */,
 				82E4008829E1FB8A001B97CB /* ContentView.swift */,
 				82545E4729F8EC210020F38E /* RomanNumeral.swift */,
+				82545E4B29F98A8D0020F38E /* SampleData.swift */,
 				82545E4029F895070020F38E /* Pages */,
 				82E4008A29E1FB8B001B97CB /* Assets.xcassets */,
 				82E4008C29E1FB8B001B97CB /* SwiftCharts.entitlements */,
@@ -216,7 +222,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					82E4008229E1FB8A001B97CB = {
 						CreatedOnToolsVersion = 14.2;
@@ -285,9 +291,11 @@
 				82E4008929E1FB8A001B97CB /* ContentView.swift in Sources */,
 				82545E4829F8EC210020F38E /* RomanNumeral.swift in Sources */,
 				82545E4429F897610020F38E /* ManualBarMark4.swift in Sources */,
+				82545E4A29F9526E0020F38E /* LoopedBarMark1.swift in Sources */,
 				82545E4629F897610020F38E /* ManualBarMark3.swift in Sources */,
 				82E4008729E1FB8A001B97CB /* SwiftChartsApp.swift in Sources */,
 				82E400B229E1FD5C001B97CB /* ManualBarMark1.swift in Sources */,
+				82545E4C29F98A8D0020F38E /* SampleData.swift in Sources */,
 				82545E4529F897610020F38E /* ManualBarMark2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +366,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -416,6 +425,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -442,6 +452,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftCharts/SwiftCharts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCharts/Preview Content\"";
 				DEVELOPMENT_TEAM = 4F7KGGGABL;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -480,6 +491,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftCharts/SwiftCharts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCharts/Preview Content\"";
 				DEVELOPMENT_TEAM = 4F7KGGGABL;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -517,6 +529,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4F7KGGGABL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -540,6 +553,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4F7KGGGABL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -562,6 +576,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4F7KGGGABL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -584,6 +599,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4F7KGGGABL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;

@@ -13,6 +13,7 @@ enum Charts: CaseIterable, Identifiable {
     case manualBarMark1
     case manualBarMark2
     case manualBarMark3
+    case loopedBarMark1
     case manualBarMark4
 }
 
@@ -29,6 +30,7 @@ struct ContentView: View {
             case .manualBarMark1: ManualBarMark1()
             case .manualBarMark2: ManualBarMark2()
             case .manualBarMark3: ManualBarMark3()
+            case .loopedBarMark1: LoopedBarMark1(drinks: drinks)
             case .manualBarMark4: ManualBarMark4()
             default:              Text("📊")
             }
